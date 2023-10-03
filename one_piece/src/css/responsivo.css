@@ -1,15 +1,14 @@
 @media (max-width: 769px) {
-    main::after{
-        background: linear-gradient(0deg, rgba(0,0,0,1) 20%, rgba(255,255,255,0) 65%) no-repeat;
+    main::after {
+        background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.00) 65%) no-repeat;
         width: 100vw;
+    }
 
-    } 
-    
     main .personagem .imagem {
         height: 85%;
     }
 
-    .conteudo{
+    .conteudo {
         justify-content: flex-end;
         left: 0;
         top: -20%;
@@ -17,11 +16,11 @@
         padding: 30px;
     }
 
-    .conteudo .nome_personagem {
+    .conteudo .nome-personagem {
         font-size: 36px;
     }
 
-    .conteudo .descricao{
+    .conteudo .descricao {
         max-width: 500px;
     }
 
@@ -32,8 +31,9 @@
         padding: 30px;
     }
 
-    .botoes .button img {
-    max-width: 60px;}
+    .botoes .botao img {
+        max-width: 60px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -41,17 +41,16 @@
         height: auto;
     }
 
-
     .conteudo .logo {
         width: 170px;
         height: 75px;
     }
 
-    .conteudo{
+    .conteudo {
         top: -30%;
     }
 
-    .conteudo .nome_personagem {
+    .conteudo .nome-personagem {
         font-size: 24px;
     }
 
@@ -60,7 +59,7 @@
         top: -20%;
     }
 
-    .botoes .button img{
+    .botoes .botao img {
         max-width: 50px;
     }
 }
